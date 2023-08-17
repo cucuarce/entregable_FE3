@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&family=Roboto&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+    font-size: 40px;
+    padding: 20px;
+    text-align: center;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.h2 {
+    font-size: 20px;
+    text-align: center;
+    padding: 20px;
+}
+
+.input {
+    width: 300px;
+    height: 40px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.div-input {
+    padding: 10px;
+}
+
+.button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.button:hover {
+    background-color: #0056b3;
+}
+
+.card {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    font-weight: bolder;
+    border-radius: 10px;
+    border: black;
+    border-style: solid;
+}
+
+.card-p {
+    padding: 10px;
+}
+
+.card-p-equipo {
+    padding: 10px;
+    border-style: solid;
+    border-radius: 10px;
+    background-color: #f70606;
+    color: white;
+    border: none;
+}
+
+.error {
+    text-align: center;
+    font-weight: bold;
+    color: #f70606;
+}
+
